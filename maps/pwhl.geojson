@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#164E36",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "title": "PWHL Boston"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.313248,
+                    42.650228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#5A288D",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "title": "PWHL Minnesota"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.101096,
+                    44.945159
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "PWHL Montreal",
+                "marker-color": "#651517",
+                "marker-size": "medium",
+                "marker-symbol": "circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.561878,
+                    45.462448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "PWHL New York",
+                "marker-color": "#18B196",
+                "marker-size": "medium",
+                "marker-symbol": "circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.1870,
+                    41.17320
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "PWHL Ottawa",
+                "marker-color": "#BC1F1E",
+                "marker-size": "medium",
+                "marker-symbol": "circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.684122,
+                    45.398886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#1A75BD",
+                "marker-size": "medium",
+                "marker-symbol": "circle",
+                "title": "PWHL Toronto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.380395,
+                    43.662475
+                ]
+            }
+       }
+    ]
+}
