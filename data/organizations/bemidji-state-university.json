@@ -1,0 +1,30 @@
+{
+    "$schema": "../../schemas/organization.schema.json",
+    "name": "Bemidji State University",
+    "mascot": "Beavers",
+    "country": "United States",
+    "region": "Minnesota",
+    "city": "Bemidji",
+    "sites": {
+        "web": "https://bsubeavers.com/sports/womens-ice-hockey"
+    },
+    "colors": [
+        "#004D44",
+        "#FFFFFF"
+    ],
+    "league":[
+        {
+            "name": "WCHA",
+            "joined": 1999
+        }
+    ],
+    "arena": [
+        {
+            "name": "Sanford Center",
+            "capacity": 4373,
+            "longitude": "-94.85356781596543",
+            "latitude": "47.46355954459177",
+            "address": "1111 Event Center Dr NE, Bemidji, MN 56601"
+        }
+    ]
+}

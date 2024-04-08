@@ -1,0 +1,6 @@
+{
+    "$schema": "../../schemas/league.schema.json",
+    "name": "WCHA",
+    "fullName": "Western Collegiate Hockey Association",
+    "start": 1999
+}

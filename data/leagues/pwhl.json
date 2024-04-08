@@ -1,0 +1,6 @@
+{
+    "$schema": "../../schemas/league.schema.json",
+    "name": "PWHL",
+    "fullName": "Professional Women's Hockey League",
+    "start": 2023
+}

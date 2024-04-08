@@ -1,0 +1,105 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://https://cavorter.github.io/woho-map/schemas/organization.schema.json",
+    "title": "organization",
+    "description": "A Woman's Hockey team.",
+    "type": "object",
+    "required": [
+        "name",
+        "country",
+        "league"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The full name of the organization"
+        },
+        "country": {
+            "type": "string",
+            "description": "The country the organization is located in or associated with"
+        },
+        "region": {
+            "type": "string",
+            "description": "The region of the country the organization is located in or associated with"
+        },
+        "municipality": {
+            "type": "string",
+            "description": "The municipality that the organiation is located in or associated with"
+        },
+        "mascot": {
+            "type": "string",
+            "description": "The mascot associated with the team"
+        },
+        "colors": {
+            "type": "array",
+            "description": "Colors associated with the team",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "league": {
+            "type": "array",
+            "description": "Leagues that the team has been associated with",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "joined"
+                ],
+                "properties": {
+                    "joined": {
+                        "type": "integer",
+                        "description": "The year the team joined the league"
+                    },
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the league"
+                    },
+                    "left": {
+                        "type": "integer",
+                        "description": "The year the team left the league"
+                    }
+                }
+            }
+        },
+        "arena": {
+            "type": "array",
+            "description": "The locations that the team has played",
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "longitude",
+                    "latitude"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the venue"
+                    },
+                    "longitude": {
+                        "type": "string",
+                        "description": "Half of the geographic coordinate in decimal format"
+                    },
+                    "latitude": {
+                        "type": "string",
+                        "description": "Half of the geographic coordinate in decimal format"
+                    },
+                    "address": {
+                        "type": "string",
+                        "description": "A postal address for the venue"
+                    },
+                    "capacity": {
+                        "type": "integer",
+                        "description": "The maximum number of people who can attend a game at the venue"
+                    }
+                }
+    
+            }
+        }
+    }
+}
+  

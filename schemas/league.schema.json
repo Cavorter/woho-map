@@ -1,0 +1,30 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://https://cavorter.github.io/woho-map/schemas/league.schema.json",
+    "title": "League",
+    "description": "A group of hockey teams",
+    "type": "object",
+    "required": [
+        "name",
+        "fullName",
+        "start"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The short name of the league"
+        },
+        "fullName": {
+            "type": "string",
+            "description": "The full name of the league"
+        },
+        "start": {
+            "type": "integer",
+            "description": "The year the league started"
+        },
+        "end": {
+            "type": "integer",
+            "description": "The year the league ended"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "$schema": "../../schemas/organization.schema.json",
+    "name": "Saint Cloud State University",
+    "country": "United States",
+    "region": "Minnesota",
+    "municipality": "Saint Cloud",
+    "mascot": "Huskies",
+    "colors": [
+        "#A10209",
+        "#000000"
+    ],
+    "league": [
+        {
+            "name": "WCHA",
+            "joined": 1999
+        }
+    ]
+}

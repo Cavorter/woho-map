@@ -1,0 +1,30 @@
+{
+    "$schema": "../../schemas/organization.schema.json",
+    "name": "PWHL Minnesota",
+    "country": "United States",
+    "region": "Minnesota",
+    "city": "Saint Paul",
+    "sites": {
+        "web": "https://minnesota.thepwhl.com"
+    },
+    "colors": [
+        "#5A288D",
+        "#000000",
+        "#FFFFFF"
+    ],
+    "league":[
+        {
+            "name": "PWHL",
+            "joined": 2023
+        }
+    ],
+    "arena": [
+        {
+            "name": "Xcel Energy Center",
+            "capacity": 17954,
+            "longitude": "-93.101096",
+            "latitude": "44.945159",
+            "address": "199 W Kellogg Blvd, St Paul, MN 55102"
+        }
+    ]
+}

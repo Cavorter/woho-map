@@ -1,0 +1,23 @@
+{
+    "$schema": "../../schemas/organization.schema.json",
+    "name": "University of Saint Thomas",
+    "mascot": "Tommie",
+    "country": "United States",
+    "region": "Minnesota",
+    "municipality": "Saint Paul",
+    "colors": [
+        "#500878",
+        "#97999B"
+    ],
+    "league": [
+        {
+            "name": "WCHA",
+            "joined": 2021
+        },
+        {
+            "name": "MIAC",
+            "joined": 1998,
+            "left": 2020
+        }
+    ]
+}

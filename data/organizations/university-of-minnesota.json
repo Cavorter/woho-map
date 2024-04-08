@@ -1,0 +1,34 @@
+{
+    "$schema": "../../schemas/organization.schema.json",
+    "name": "University of Minnesota",
+    "mascot": "Golden Gophers",
+    "country": "United States",
+    "region": "Minnesota",
+    "municipality": "Minneapolis",
+    "colors": [
+        "#5B0013",
+        "#FFB71E"
+    ],
+    "league": [
+        {
+            "joined": 1999,
+            "name": "WCHA"
+        }
+    ],
+    "arena": [
+        {
+            "name": "3M Arena at Mariucci",
+            "latitude": "44.978056",
+            "longitude": "-93.228056",
+            "capacity": 9700,
+            "address": "1901 4th St SE, Minneapolis, MN 55455-2004"
+        },
+        {
+            "name": "Ritter Arena",
+            "latitude": "44.97860249059175",
+            "longitude": "-93.22930054490477",
+            "capacity": 3400,
+            "address": "1815 4th St SE, Minneapolis, MN 55455"
+        }
+    ]
+}
